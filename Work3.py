@@ -11,6 +11,9 @@ for i in range(b):
 
     d.append(c)
 
-print(d)
+e = "".join(random.sample(d, b))    
+
+print(e)
+
 
 
